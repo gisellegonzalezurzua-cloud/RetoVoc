@@ -21,6 +21,20 @@ jobs:
           echo "${{ secrets.FIREBASE_SERVICE_ACCOUNT }}" > serviceAccountKey.json
           chmod 600 serviceAccountKey.json
 
+      - name: Validate service account JSON
+        run: |
+          echo "Validating serviceAccountKey.json (will fail if invalid JSON)..."
+          python - <<'PY'
+import json, sys
+try:
+    with open('serviceAccountKey.json') as f:
+        json.load(f)
+except Exception as e:
+    print('Invalid FIREBASE_SERVICE_ACCOUNT secret or malformed JSON:', e)
+    sys.exit(1)
+print('serviceAccountKey.json is valid JSON')
+PY
+
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
