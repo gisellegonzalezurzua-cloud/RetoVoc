@@ -1,0 +1,22 @@
+[
+  {"id":"w7001","palabra":"ecosistema","definicion":"Conjunto de seres vivos y elementos no vivos que interactúan en un lugar.","ejemplo":"El lago es un ecosistema donde viven peces y plantas.","nivel":"7° básico","asignatura":"Ciencias","imagen":null},
+  {"id":"w7002","palabra":"erosión","definicion":"Desgaste del suelo o rocas por agua, viento o hielo.","ejemplo":"La erosión puede formar barrancas con el tiempo.","nivel":"7° básico","asignatura":"Geografía","imagen":null},
+  {"id":"w7003","palabra":"hábitat","definicion":"El lugar donde vive una especie y obtiene lo que necesita.","ejemplo":"El hábitat del pingüino es la costa fría.","nivel":"7° básico","asignatura":"Ciencias","imagen":null},
+  {"id":"w7004","palabra":"sustantivo","definicion":"Palabra que nombra personas, lugares, cosas o ideas.","ejemplo":"'Casa' es un sustantivo.","nivel":"7° básico","asignatura":"Lenguaje","imagen":null},
+  {"id":"w7005","palabra":"adjetivo","definicion":"Palabra que describe al sustantivo.","ejemplo":"'Bonito' es un adjetivo en 'casa bonita'.","nivel":"7° básico","asignatura":"Lenguaje","imagen":null},
+  {"id":"w7006","palabra":"fracción","definicion":"Parte de un todo expresada con numerador y denominador.","ejemplo":"1/2 es una fracción que significa la mitad.","nivel":"7° básico","asignatura":"Matemáticas","imagen":null},
+  {"id":"w7007","palabra":"decimal","definicion":"Número que usa una coma o punto para separar la parte fraccionaria.","ejemplo":"0,75 es un número decimal.","nivel":"7° básico","asignatura":"Matemáticas","imagen":null},
+  {"id":"w7008","palabra":"población","definicion":"Cantidad de personas que viven en un lugar.","ejemplo":"La población de la ciudad aumentó el año pasado.","nivel":"7° básico","asignatura":"Ciencias Sociales","imagen":null},
+  {"id":"w7009","palabra":"clima","definicion":"Conjunto de condiciones atmosféricas típicas de una región.","ejemplo":"El norte tiene un clima desértico.","nivel":"7° básico","asignatura":"Geografía","imagen":null},
+  {"id":"w7010","palabra":"fósil","definicion":"Restos o huellas de organismos antiguos conservados en roca.","ejemplo":"Los científicos estudiaron un fósil de dinosaurio.","nivel":"7° básico","asignatura":"Ciencias","imagen":null},
+  {"id":"w7011","palabra":"nutriente","definicion":"Sustancia que los seres vivos necesitan para crecer o vivir.","ejemplo":"Las plantas absorben nutrientes del suelo.","nivel":"7° básico","asignatura":"Biología","imagen":null},
+  {"id":"w7012","palabra":"bioma","definicion":"Gran zona con características climáticas y seres vivos similares.","ejemplo":"La selva tropical es un bioma con mucha biodiversidad.","nivel":"7° básico","asignatura":"Ciencias","imagen":null},
+  {"id":"w7013","palabra":"célula","definicion":"Unidad básica de los seres vivos.","ejemplo":"Todas las plantas y animales están formados por células.","nivel":"7° básico","asignatura":"Biología","imagen":null},
+  {"id":"w7014","palabra":"energía","definicion":"Capacidad para producir trabajo o movimiento.","ejemplo":"El sol aporta energía a la Tierra.","nivel":"7° básico","asignatura":"Física","imagen":null},
+  {"id":"w7015","palabra":"gravitar","definicion":"Moverse o atraer por efecto de la gravedad.","ejemplo":"Todos los objetos gravitan hacia el centro de la Tierra.","nivel":"7° básico","asignatura":"Física","imagen":null},
+  {"id":"w7016","palabra":"continente","definicion":"Gran extensión de tierra que forma parte del planeta.","ejemplo":"Sudamérica es un continente.","nivel":"7° básico","asignatura":"Geografía","imagen":null},
+  {"id":"w7017","palabra":"capital","definicion":"Ciudad principal de un país donde están sus autoridades.","ejemplo":"Santiago es la capital de Chile.","nivel":"7° básico","asignatura":"Ciencias Sociales","imagen":null},
+  {"id":"w7018","palabra":"moneda","definicion":"Medio de intercambio usado para comprar y vender.","ejemplo":"El peso chileno es la moneda de Chile.","nivel":"7° básico","asignatura":"Educación Cívica","imagen":null},
+  {"id":"w7019","palabra":"democracia","definicion":"Sistema de gobierno en el que la gente participa votando.","ejemplo":"En una democracia, los ciudadanos eligen a sus representantes.","nivel":"7° básico","asignatura":"Historia","imagen":null},
+  {"id":"w7020","palabra":"mitosis","definicion":"Proceso de división celular que forma dos células iguales.","ejemplo":"La mitosis es esencial para el crecimiento.","nivel":"7° básico","asignatura":"Biología","imagen":null}
+]

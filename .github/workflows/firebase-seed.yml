@@ -1,0 +1,45 @@
+name: Firebase rules deploy & seeding
+
+on:
+  workflow_dispatch:
+
+jobs:
+  deploy-seed:
+    runs-on: ubuntu-latest
+    env:
+      GOOGLE_APPLICATION_CREDENTIALS: ${{ github.workspace }}/serviceAccountKey.json
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Save Firebase service account (from secret)
+        run: |
+          if [ -z "${{ secrets.FIREBASE_SERVICE_ACCOUNT }}" ]; then
+            echo "FIREBASE_SERVICE_ACCOUNT secret is not set. Please add it to repository secrets.";
+            exit 1;
+          fi
+          echo "${{ secrets.FIREBASE_SERVICE_ACCOUNT }}" > serviceAccountKey.json
+          chmod 600 serviceAccountKey.json
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Get Firebase project id
+        id: getproj
+        run: |
+          node -e "console.log(require('./serviceAccountKey.json').project_id)" > project_id.txt
+          echo "project_id=$(cat project_id.txt)" >> $GITHUB_OUTPUT
+
+      - name: Deploy Firestore rules
+        run: npx firebase-tools deploy --only firestore:rules --project ${{ steps.getproj.outputs.project_id }}
+
+      - name: Seed Firestore (words)
+        run: npm run seed
+
+      - name: Seed Users
+        run: npm run seed-users

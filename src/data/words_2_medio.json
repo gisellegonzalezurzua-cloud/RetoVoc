@@ -1,0 +1,22 @@
+[
+  {"id":"w2001","palabra":"hipótesis","definicion":"Propuesta o suposición que se formula para explicar un fenómeno.","ejemplo":"La hipótesis debe probarse con un experimento.","nivel":"2° medio","asignatura":"Ciencias","imagen":null},
+  {"id":"w2002","palabra":"síntesis","definicion":"Unir partes para obtener un todo o resumen de ideas.","ejemplo":"La síntesis del texto resume sus puntos clave.","nivel":"2° medio","asignatura":"Lenguaje","imagen":null},
+  {"id":"w2003","palabra":"oxidación","definicion":"Reacción química en la que una sustancia pierde electrones.","ejemplo":"La oxidación del hierro causa óxido.","nivel":"2° medio","asignatura":"Química","imagen":null},
+  {"id":"w2004","palabra":"mitocondria","definicion":"Orgánulo celular encargado de producir energía.","ejemplo":"Las mitocondrias producen ATP en la célula.","nivel":"2° medio","asignatura":"Biología","imagen":null},
+  {"id":"w2005","palabra":"homeostasis","definicion":"Mantenimiento del equilibrio interno en un organismo.","ejemplo":"La temperatura corporal estable es un ejemplo de homeostasis.","nivel":"2° medio","asignatura":"Biología","imagen":null},
+  {"id":"w2006","palabra":"constitución","definicion":"Conjunto de normas que rigen a un país.","ejemplo":"La constitución establece derechos y deberes.","nivel":"2° medio","asignatura":"Historia","imagen":null},
+  {"id":"w2007","palabra":"sufragio","definicion":"Derecho a votar en elecciones.","ejemplo":"El sufragio es un derecho ciudadano.","nivel":"2° medio","asignatura":"Historia","imagen":null},
+  {"id":"w2008","palabra":"revolución","definicion":"Cambio profundo y rápido en la organización política o social.","ejemplo":"La revolución influyó en la estructura del país.","nivel":"2° medio","asignatura":"Historia","imagen":null},
+  {"id":"w2009","palabra":"integral","definicion":"Concepto matemático relacionado con el área bajo una curva.","ejemplo":"El cálculo integral se estudia en matemáticas avanzadas.","nivel":"2° medio","asignatura":"Matemáticas","imagen":null},
+  {"id":"w2010","palabra":"derivado","definicion":"Tasa de cambio o pendiente instantánea en cálculo.","ejemplo":"El derivado indica cómo varía una función.","nivel":"2° medio","asignatura":"Matemáticas","imagen":null},
+  {"id":"w2011","palabra":"anticuerpo","definicion":"Proteína que defiende al organismo frente a agentes externos.","ejemplo":"Los anticuerpos ayudan a combatir infecciones.","nivel":"2° medio","asignatura":"Biología","imagen":null},
+  {"id":"w2012","palabra":"enzima","definicion":"Sustancia que acelera reacciones químicas en los seres vivos.","ejemplo":"Las enzimas ayudan en la digestión.","nivel":"2° medio","asignatura":"Biología","imagen":null},
+  {"id":"w2013","palabra":"ácido","definicion":"Sustancia que dona protones en una reacción química.","ejemplo":"El vinagre es un líquido ácido.","nivel":"2° medio","asignatura":"Química","imagen":null},
+  {"id":"w2014","palabra":"base","definicion":"Sustancia que acepta protones o tiene pH alto.","ejemplo":"El bicarbonato es una base suave.","nivel":"2° medio","asignatura":"Química","imagen":null},
+  {"id":"w2015","palabra":"dialéctica","definicion":"Método de discusión que busca la verdad mediante tesis y antítesis.","ejemplo":"En historia se analiza la dialéctica de una época.","nivel":"2° medio","asignatura":"Filosofía","imagen":null},
+  {"id":"w2016","palabra":"paradigma","definicion":"Modelo o ejemplo que sirve como referencia en una disciplina.","ejemplo":"Un nuevo paradigma científico cambia la forma de investigar.","nivel":"2° medio","asignatura":"Ciencias Sociales","imagen":null},
+  {"id":"w2017","palabra":"análisis morfológico","definicion":"Estudio de la forma y estructura de las palabras.","ejemplo":"El análisis morfológico distingue raíz y sufijos.","nivel":"2° medio","asignatura":"Lenguaje","imagen":null},
+  {"id":"w2018","palabra":"enlace iónico","definicion":"Unión entre átomos por transferencia de electrones.","ejemplo":"La sal de mesa tiene enlaces iónicos.","nivel":"2° medio","asignatura":"Química","imagen":null},
+  {"id":"w2019","palabra":"homeótesis","definicion":"Propuesta de regulación parcial de un sistema (término técnico en ciencias).","ejemplo":"La homeótesis mantiene condiciones estables en parte del organismo.","nivel":"2° medio","asignatura":"Biología","imagen":null},
+  {"id":"w2020","palabra":"competencia","definicion":"Rivalidad entre personas o grupos por obtener algo.","ejemplo":"La competencia entre empresas mejora la calidad.","nivel":"2° medio","asignatura":"Ciencias Sociales","imagen":null}
+]
