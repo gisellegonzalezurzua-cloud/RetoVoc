@@ -27,7 +27,7 @@ jobs:
           node-version: '18'
 
       - name: Install dependencies
-        run: npm ci
+        run: npm install --no-audit --prefer-offline --no-fund
 
       - name: Get Firebase project id
         id: getproj
