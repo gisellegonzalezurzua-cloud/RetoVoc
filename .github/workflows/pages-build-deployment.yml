@@ -32,8 +32,9 @@ jobs:
           npx expo export:web --output web-build
 
       - name: Upload artifact for GitHub Pages
-        uses: actions/upload-pages-artifact@v1
+        uses: actions/upload-artifact@v4
         with:
+          name: pages
           path: web-build
 
   deploy:
